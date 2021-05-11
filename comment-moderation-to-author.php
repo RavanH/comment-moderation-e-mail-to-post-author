@@ -6,6 +6,8 @@ Description: Send comment moderation notifications **only** to the posts Author,
 Version: 0.5
 Author: RavanH
 Author URI: http://status301.net/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 /**

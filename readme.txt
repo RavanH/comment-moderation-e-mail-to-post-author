@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravan
 Tags: comments, moderation, comment, author, comment notification, comment moderation, comment moderation notification, comment moderation recipients, comment_moderation_recipients, comment moderation email, comment moderation e-mail, moderation queue, e-mail, email
 Requires at least: 3.7
 Tested up to: 5.7
-Stable tag: 0.5
+Stable tag: 0.6
 
 Send comment moderation notifications ONLY to the Author, not to the site Administration address any more.
 
@@ -50,10 +50,13 @@ You can install it in /plugins/ and activate it *site-by-site* or *network wide*
 
 == Upgrade Notice ==
 
-= 0.5 =
-WP 4.8+ compatibility
+= 0.6 =
+FIX: allow for other filters
 
 == Changelog ==
+
+= 0.6 =
+FIX: allow for other `comment_moderation_recipients` filters running before this one
 
 = 0.5 =
 WP 4.8+ compatibility

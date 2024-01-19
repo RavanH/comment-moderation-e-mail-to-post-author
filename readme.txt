@@ -57,7 +57,6 @@ FIX: allow for other filters
 
 = 0.7 =
 20240119
-TODO: make fallback optional
 * NEW: set Site Amdin only recipient with constant in wp-config.php
 * NEW: set New Comment Notification recipients with constant in wp-config.php
 * WordPress Coding Standards

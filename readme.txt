@@ -55,17 +55,29 @@ FIX: allow for other filters
 
 == Changelog ==
 
+= 0.7 =
+20240119
+TODO: make fallback optional
+* NEW: set Site Amdin only recipient with constant in wp-config.php
+* NEW: set New Comment Notification recipients with constant in wp-config.php
+* WordPress Coding Standards
+
 = 0.6 =
-FIX: allow for other `comment_moderation_recipients` filters running before this one
+20210511
+* FIX: allow for other `comment_moderation_recipients` filters running before this one
 
 = 0.5 =
-WP 4.8+ compatibility
+20170717
+* WP 4.8+ compatibility
 
 = 0.4 =
-New concept: filter comment_moderation_recipients available since WP 3.7
+20140904
+* New concept: filter comment_moderation_recipients available since WP 3.7
 
 = 0.3 =
-WP 3.1+ compatibility
+20130627
+* WP 3.1+ compatibility
 
 = 0.1 =
-First concept: replace function wp_notify_moderator()
+20101123
+* First concept: replace function wp_notify_moderator()

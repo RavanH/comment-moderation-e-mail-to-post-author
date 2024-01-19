@@ -2,7 +2,7 @@
 /**
  * Plugin main filters
  *
- * @package Comment Notification Recipients
+ * @package Comment Moderation/Notification Recipients
  */
 
 namespace CommentNotifications;

@@ -1,11 +1,11 @@
 <?php
 /**
- * My Plugin old main file upgrade
+ * "Comment Moderation E-mail only to Author" old main file upgrade
  *
  * This is the old plugin main file.
  * Keep this for backward upgrade compatibility.
  *
- * @package My Plugin
+ * @package Comment Moderation/Notification Recipients
  */
 
 defined( 'WPINC' ) || die;

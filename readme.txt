@@ -1,12 +1,12 @@
 === Comment Moderation/Notification Recipients ===
 Contributors: RavanH
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravanhagen%40gmail%2ecom&item_name=Comment%20Moderation%20E-mail%20to%20Post%20Author&item_number=0%2e1&no_shipping=0&tax=0&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=us
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravanhagen%40gmail%2ecom&item_name=Comment%20Moderation%20Notification%20Recipients&item_number=0%2e7&no_shipping=0&tax=0&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=us
 Tags: comments, moderation, comment, comment notification, comment moderation, comment moderation notification, comment moderation recipients, comment_moderation_recipients, comment notification recipients, comment_notification_recipients, comment moderation email, comment moderation e-mail, moderation queue
 Requires at least: 3.7
 Tested up to: 6.4
 Stable tag: 0.6
 
-Control who will receive new comment and moderation notifications.
+Control who will receive new comment and moderation notifications. Light weight, simple, safe and effective.
 
 == Description ==
 

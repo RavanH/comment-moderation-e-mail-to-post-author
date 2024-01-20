@@ -56,6 +56,7 @@ class Filters {
 	public function notification_recipients( $emails, $comment_id ) {
 
 		switch ( COMMENT_NOTIFICATION_RECIPIENTS ) {
+			case 'post_author_only':
 			case 'wp_default':
 			default:
 				// Do nothing.
@@ -64,9 +65,6 @@ class Filters {
 			case 'site_admin_only':
 				$emails = $this->notify_site_admin_only( $emails );
 				break;
-
-			case 'post_author_only':
-				$emails = $this->notify_post_author_only( $emails, $comment_id );
 		}
 
 		return $emails;
@@ -103,7 +101,7 @@ class Filters {
 	}
 
 	/**
-	 * Filters recipients: $emails includes only admin e-mail,
+	 * Filters recipients: $emails includes only site admin e-mail,
 	 * unless the admin e-mail is missing or invalid.
 	 *
 	 * @since 0.7

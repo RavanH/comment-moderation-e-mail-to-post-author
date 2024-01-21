@@ -24,7 +24,7 @@ class Filters {
 	 *
 	 * @return array
 	 */
-	public function moderation_recipients( $emails, $comment_id ) {
+	public static function moderation_recipients( $emails, $comment_id ) {
 
 		switch ( COMMENT_MODERATION_RECIPIENTS ) {
 			case 'wp_default':
@@ -32,12 +32,12 @@ class Filters {
 				break;
 
 			case 'site_admin_only':
-				$emails = $this->notify_site_admin_only( $emails );
+				$emails = self::notify_site_admin_only( $emails );
 				break;
 
 			case 'post_author_only':
 			default:
-				$emails = $this->notify_post_author_only( $emails, $comment_id );
+				$emails = self::notify_post_author_only( $emails, $comment_id );
 		}
 
 		return $emails;
@@ -53,7 +53,7 @@ class Filters {
 	 *
 	 * @return array
 	 */
-	public function notification_recipients( $emails, $comment_id ) {
+	public static function notification_recipients( $emails, $comment_id ) {
 
 		switch ( COMMENT_NOTIFICATION_RECIPIENTS ) {
 			case 'post_author_only':
@@ -63,7 +63,7 @@ class Filters {
 				break;
 
 			case 'site_admin_only':
-				$emails = $this->notify_site_admin_only( $emails );
+				$emails = self::notify_site_admin_only( $emails );
 				break;
 		}
 
@@ -81,7 +81,7 @@ class Filters {
 	 *
 	 * @return array
 	 */
-	private function notify_post_author_only( $emails, $comment_id ) {
+	private static function notify_post_author_only( $emails, $comment_id ) {
 		// Do we have multiple recipients at all?
 		if ( is_array( $emails ) && count( $emails ) > 1 ) {
 			// Most likely, the first element is the admin email and the second is the post author email.
@@ -110,7 +110,7 @@ class Filters {
 	 *
 	 * @return array
 	 */
-	private function notify_site_admin_only( $emails ) {
+	private static function notify_site_admin_only( $emails ) {
 		$admin_email = get_option( 'admin_email' );
 
 		// Valid admin email? Then override.

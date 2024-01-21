@@ -3,7 +3,7 @@
  * Plugin Name: Comment Moderation/Notification Recipients
  * Plugin URI: http://status301.net/wordpress-plugins/comment-moderation-e-mail-to-post-author/
  * Description: Control who will receive new comment and moderation notifications. Light weight, simple, safe and effective. <strong>Happy with it? <em><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravanhagen%40gmail%2ecom&item_name=Comment%20Moderation%20Notification%20Recipients&item_number=0%2e7&no_shipping=0&tax=0&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=us">Buy me a coffee...</a></em> Thanks! :)</strong>
- * Version: 0.7-beta5
+ * Version: 0.7-beta6
  * Author: RavanH
  * Author URI: http://status301.net/
  * License: GNU General Public License v3 or later
